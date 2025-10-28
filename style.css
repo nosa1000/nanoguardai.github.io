@@ -1,65 +1,63 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
 body {
-  background: #ffffff;
-  color: #0b3e3c;
-  text-align: center;
-  padding: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b0f14;
+    color: #e2e8f0;
+    text-align: center;
 }
 
 header {
-  padding: 60px 20px;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
 }
 
 .logo {
-  width: 120px;
-  margin-bottom: 20px;
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 h1 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 10px;
+    font-size: 2.5rem;
+    margin: 10px 0;
+    color: #38bdf8;
 }
 
 p {
-  font-size: 16px;
-  margin-top: 10px;
-  max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 500px;
+    margin: auto;
+    font-size: 1.1rem;
+    opacity: 0.9;
 }
 
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  background-color: #18a999;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 600;
+.features {
+    padding: 40px 20px;
 }
 
-.coming-soon {
-  margin-top: 70px;
-  padding: 40px 10px;
-  background: #e3f7f5;
-  border-radius: 10px;
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #38bdf8;
 }
 
-.coming-soon h2 {
-  font-size: 22px;
-  color: #0b3e3c;
+.feature-box {
+    background: #1e293b;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 350px;
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
 }
 
 footer {
-  margin-top: 80px;
-  font-size: 12px;
-  color: #4f6f6c;
+    padding: 15px;
+    font-size: 14px;
+    background: #0f172a;
+    margin-top: 40px;
 }
